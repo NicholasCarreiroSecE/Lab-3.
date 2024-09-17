@@ -1,0 +1,97 @@
+<html>
+
+<head>
+    <title>Blog Layout</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: whitesmoke;
+            text-align: center;
+        }
+
+        .header {
+            padding: 8px;
+            font-size: 25px;
+            color: white;
+            text-align: center;
+            background: #272838;
+        }
+
+        .leftcolumn {
+            float: left;
+            width: 75%;
+        }
+
+        .rightcolumn {
+            float: left;
+            width: 25%;
+            padding-left: 10px;
+        }
+
+        .placeholderimage {
+            background-color: gray;
+            width: 100%;
+            padding: 10px;
+        }
+
+        .card {
+            background-color: #989FCE;
+            padding: 5px;
+            margin-top: 5px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .footer {
+            padding: 10px;
+            text-align: center;
+            background: #5D536B;
+            margin-top: 10;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h2>Name of Blog</h2>
+    </div>
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2 style="text-align: center;">Main Content</h2>
+                <p>Placeholder text</p>
+            </div>
+            <div class="footer">
+                <h2>Footer</h2>
+                <p>Contact info/Credits</p>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <h2>Navigation Menu</h2>
+                <select name="blogsections" id="blogsection-sekect">
+                    <option value="">Sections of blog</option>
+                    <option value="section1">Section 1</option>
+                    <option value="section2">Section 2</option>
+                </select>
+            </div>
+            <div class="card">
+                <h3>Additional Links</h3>
+                <p>Check out our other blogs!</p>
+                <a
+                    href="file:///C:/Users/naldo/OneDrive/Desktop/Fall%202024/CPAN%20134/Lab-3/multimedia_blog_post.html">Summer
+                    Destinations</a>
+            </div>
+</body>
+
+</html>
