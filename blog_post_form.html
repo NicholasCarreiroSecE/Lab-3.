@@ -1,8 +1,20 @@
 <html>
     <head>
-
+        <title>Submit A Blog</title>
     </head>
+
     <body>
-        
+        <h2>Submit Your Blog!</h2>
+        <input type="text" name="title" id="Enter the blog's title">
+        <input type="text" name="author" id="Enter the blog's author">
+        <input type="text" name="content" id="Enter the blog's content">
+        <select name="categories" id="category-select">
+            <option value="">Chose a blog category</option>
+            <option value="environmental">Enviromental</option>
+            <option value="political">Political</option>
+            <option value="informational">Informational</option>
+        </select>
+        <input type="submit" value="Submit">
+        <button type="button" onclick="alert('Form Submitted!')"></button>
     </body>
 </html>
