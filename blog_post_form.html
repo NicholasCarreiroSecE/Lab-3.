@@ -1,20 +1,73 @@
 <html>
-    <head>
-        <title>Submit A Blog</title>
-    </head>
 
-    <body>
-        <h2>Submit Your Blog!</h2>
-        <input type="text" name="title" id="Enter the blog's title">
-        <input type="text" name="author" id="Enter the blog's author">
-        <input type="text" name="content" id="Enter the blog's content">
-        <select name="categories" id="category-select">
-            <option value="">Chose a blog category</option>
-            <option value="environmental">Enviromental</option>
-            <option value="political">Political</option>
-            <option value="informational">Informational</option>
-        </select>
-        <input type="submit" value="Submit">
-        <button type="button" onclick="alert('Form Submitted!')"></button>
-    </body>
+<head>
+    <title>Submit A Blog</title>
+
+    <style>
+        h2 {
+            margin-top: 5%;
+            text-align: center;
+            background-color: #FFF4EC;
+            border-color: black;
+            border-style: solid;
+            border-radius: 5px;
+            border-width: 2px;
+            margin-left: 25%;
+            margin-right: 25%;
+            height: 5%;
+            padding: 8px;
+        }
+
+        input {
+            margin-right: 42.5%;
+            margin-left: 42.5%;
+            margin-top: 1%;
+            border-color: black;
+            border-style: solid;
+            padding: 8px;
+            text-align: center;   
+        }
+
+        select {
+            margin-top: 1%;
+            margin-left: 42.75%;
+            margin-right: 42.75%;
+            border-color: black;
+            border-style: solid;
+            padding: 8px;
+            text-align: center;
+        }
+
+        button {
+            margin-top: 1%;
+            margin-left: 45%;
+            margin-right: 45%;
+            border-color: black;
+            border-style: solid;
+            padding: 8px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h2>Submit Your Own Customized Blog!</h2>
+    <table>
+        <tr>
+        <input type="text" name="title" placeholder="Enter the blog's title">
+        <input type="text" name="author" placeholder="Enter the blog's author" >
+        <input type="text" name="content" placeholder="Enter the blog's content">
+        </tr>
+    </table>
+    <select name="categories" id="category-select">
+        <option value="">Chose a blog category</option>
+        <option value="environmental">Enviromental</option>
+        <option value="political">Political</option>
+        <option value="informational">Informational</option>
+    </select>
+    <input type="submit" value="Submit" id="submitbutton">
+    <button type="button" onclick="alert('Form Submitted!')">Submit Form</button>
+</body>
+
 </html>
